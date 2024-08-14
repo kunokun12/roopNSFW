@@ -6,7 +6,7 @@ from keras import Model
 
 from roop.typing import Frame
 
-PREDICTOR = None
+PREDICTOR = True
 THREAD_LOCK = threading.Lock()
 MAX_PROBABILITY = 0.85
 
